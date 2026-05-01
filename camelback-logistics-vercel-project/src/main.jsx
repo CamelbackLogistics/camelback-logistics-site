@@ -11,7 +11,7 @@ const heroImages = [
   },
   {
     label: "Truck",
-    src: "https://canva.link/coskd9265x12ymr"
+    src: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=2400&q=80"
   },
   {
     label: "Rail",
