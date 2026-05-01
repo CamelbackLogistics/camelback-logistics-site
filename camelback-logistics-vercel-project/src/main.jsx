@@ -7,6 +7,7 @@ const VIDEO_SRC = "/camelback-video.mp4";
 
 const services = [
   {
+    icon: "01",
     title: "Procurement & Production Support",
     text: "Coordinated supply chain support from sourcing and vendor management through production planning and execution."
   },
