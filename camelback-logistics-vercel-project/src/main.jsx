@@ -386,7 +386,7 @@ function CamelbackLogisticsWebsite() {
                 </div>
                 <div className="flex items-center gap-4 text-slate-300">
                   <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/20 text-xs font-bold">TEL</span>
-                  <span>000-000-0000</span>
+                  <span>(302) 289-6717 </span>
                 </div>
                 <Button className="mt-4 w-full">Contact Us <Arrow /></Button>
               </div>
