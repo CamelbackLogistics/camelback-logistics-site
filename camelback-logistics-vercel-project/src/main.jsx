@@ -7,7 +7,7 @@ const LOGO_SRC = "/logo.png";
 const heroImages = [
   {
     label: "Ocean",
-    src: "https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=2400&q=80"
+    src: "https://images.unsplash.com/photo-1661756977826-c66970f2a2cb?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     label: "Truck",
