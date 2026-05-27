@@ -11,7 +11,7 @@ const heroImages = [
   },
   {
     label: "Truck",
-    src: "https://unsplash.com/photos/black-truck-on-road-during-daytime-ki19VJAGh6w"
+    src: "https://unsplash.com/photos/blue-truck-on-road-near-bare-trees-during-daytime-jOi8CLM2aaI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
   },
   {
     label: "Rail",
