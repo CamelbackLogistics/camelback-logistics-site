@@ -11,7 +11,7 @@ const heroImages = [
   },
   {
     label: "Truck",
-    src: "https://canva.link/jefedvig8wa1857"
+    src: "https://unsplash.com/photos/black-truck-on-road-during-daytime-ki19VJAGh6w"
   },
   {
     label: "Rail",
