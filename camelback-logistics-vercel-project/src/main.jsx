@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import "./index.css";
 import ReactDOM from "react-dom/client";
+import { Analytics } from "@vercel/analytics/react";
 
 const LOGO_SRC = "/logo.png";
 
@@ -407,7 +408,12 @@ function CamelbackLogisticsWebsite() {
 
 const rootElement = document.getElementById("root");
 if (rootElement) {
-  ReactDOM.createRoot(rootElement).render(<CamelbackLogisticsWebsite />);
+  ReactDOM.createRoot(rootElement).render(
+    <>
+      <CamelbackLogisticsWebsite />
+      <Analytics />
+    </>
+  );
 }
 
 export default CamelbackLogisticsWebsite;
