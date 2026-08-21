@@ -169,7 +169,7 @@ function CamelbackLogisticsWebsite() {
     Global Reach. Local Precision.
   </p>
 </a>
-
+<div className="flex items-center gap-8">
           <nav className="hidden items-center gap-10 text-sm font-medium text-white/85 md:flex">
             <a href="#about" className="hover:text-sky-300">About</a>
             <a href="#services" className="hover:text-sky-300">Services</a>
@@ -177,6 +177,7 @@ function CamelbackLogisticsWebsite() {
           </nav>
 
           <Button className="hidden px-6 py-3 text-sm md:inline-flex">Get Started <Arrow /></Button>
+  </div>
         </div>
       </header>
 
