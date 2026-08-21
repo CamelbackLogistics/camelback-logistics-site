@@ -151,14 +151,24 @@ function CamelbackLogisticsWebsite() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#020817] text-white">
+  <div id="top" className="min-h-screen bg-[#020817] text-white">
       <header className="sticky top-0 z-50 border-b border-sky-400/10 bg-black/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-[1500px] items-center justify-between px-6 py-4 lg:px-10">
-          <div className="flex items-center gap-4">
-            <img src={LOGO_SRC} alt="Camelback Logistics Logo" className="h-11 w-auto object-contain" />
-            <div className="hidden h-8 w-px bg-white/20 sm:block" />
-            <p className="hidden text-xs font-semibold uppercase tracking-[0.22em] text-white/80 sm:block">Global Reach. Local Precision.</p>
-          </div>
+        <a
+  href="#top"
+  className="flex items-center gap-4 cursor-pointer"
+  aria-label="Back to top"
+>
+  <img
+    src={LOGO_SRC}
+    alt="Camelback Logistics Logo"
+    className="h-11 w-auto object-contain"
+  />
+  <div className="hidden h-8 w-px bg-white/20 sm:block" />
+  <p className="hidden text-xs font-semibold uppercase tracking-[0.22em] text-white/80 sm:block">
+    Global Reach. Local Precision.
+  </p>
+</a>
 
           <nav className="hidden items-center gap-10 text-sm font-medium text-white/85 md:flex">
             <a href="#about" className="hover:text-sky-300">About</a>
