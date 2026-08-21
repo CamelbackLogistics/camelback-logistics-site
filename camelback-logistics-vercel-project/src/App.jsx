@@ -128,16 +128,23 @@ function Arrow() {
 
 export default function CamelbackLogisticsWebsite() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
-      <header className="sticky top-0 z-50 border-b border-rose-400/20 bg-slate-950/90 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <div className="flex items-center gap-3">
-            <img src={LOGO_SRC} alt="Camelback Logistics Logo" className="h-10 w-auto object-contain" />
-            <div>
-              <p className="text-lg font-semibold tracking-tight">Camelback Logistics</p>
-              <p className="text-xs uppercase tracking-[0.28em] text-rose-200/70">Global Reach. Local Precision.</p>
-            </div>
-          </div>
+ <button
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  className="flex items-center gap-3 cursor-pointer"
+  aria-label="Back to top"
+>
+  <img
+    src={LOGO_SRC}
+    alt="Camelback Logistics Logo"
+    className="h-10 w-auto object-contain"
+  />
+  <div className="text-left">
+    <p className="text-lg font-semibold tracking-tight">Camelback Logistics</p>
+    <p className="text-xs uppercase tracking-[0.28em] text-rose-200/70">
+      Global Reach. Local Precision.
+    </p>
+  </div>
+</button>
 
           <nav className="hidden items-center gap-8 text-sm text-slate-300 md:flex">
             <a href="#about" className="hover:text-rose-200">About</a>
